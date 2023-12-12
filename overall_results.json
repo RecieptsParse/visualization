@@ -1,0 +1,502 @@
+[
+    {
+        "ent_type": {
+            "correct": 36,
+            "incorrect": 0,
+            "partial": 0,
+            "missed": 1,
+            "spurious": 1,
+            "possible": 37,
+            "actual": 37,
+            "precision": 0.972972972972973,
+            "recall": 0.972972972972973,
+            "f1": 0.972972972972973
+        },
+        "partial": {
+            "correct": 36,
+            "incorrect": 0,
+            "partial": 0,
+            "missed": 1,
+            "spurious": 1,
+            "possible": 37,
+            "actual": 37,
+            "precision": 0.972972972972973,
+            "recall": 0.972972972972973,
+            "f1": 0.972972972972973
+        },
+        "strict": {
+            "correct": 36,
+            "incorrect": 0,
+            "partial": 0,
+            "missed": 1,
+            "spurious": 1,
+            "possible": 37,
+            "actual": 37,
+            "precision": 0.972972972972973,
+            "recall": 0.972972972972973,
+            "f1": 0.972972972972973
+        },
+        "exact": {
+            "correct": 36,
+            "incorrect": 0,
+            "partial": 0,
+            "missed": 1,
+            "spurious": 1,
+            "possible": 37,
+            "actual": 37,
+            "precision": 0.972972972972973,
+            "recall": 0.972972972972973,
+            "f1": 0.972972972972973
+        }
+    },
+    {
+        "ent_type": {
+            "correct": 13,
+            "incorrect": 0,
+            "partial": 0,
+            "missed": 0,
+            "spurious": 0,
+            "possible": 13,
+            "actual": 13,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "partial": {
+            "correct": 13,
+            "incorrect": 0,
+            "partial": 0,
+            "missed": 0,
+            "spurious": 0,
+            "possible": 13,
+            "actual": 13,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "strict": {
+            "correct": 13,
+            "incorrect": 0,
+            "partial": 0,
+            "missed": 0,
+            "spurious": 0,
+            "possible": 13,
+            "actual": 13,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "exact": {
+            "correct": 13,
+            "incorrect": 0,
+            "partial": 0,
+            "missed": 0,
+            "spurious": 0,
+            "possible": 13,
+            "actual": 13,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        }
+    },
+    {
+        "ent_type": {
+            "correct": 17,
+            "incorrect": 0,
+            "partial": 0,
+            "missed": 0,
+            "spurious": 0,
+            "possible": 17,
+            "actual": 17,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "partial": {
+            "correct": 17,
+            "incorrect": 0,
+            "partial": 0,
+            "missed": 0,
+            "spurious": 0,
+            "possible": 17,
+            "actual": 17,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "strict": {
+            "correct": 17,
+            "incorrect": 0,
+            "partial": 0,
+            "missed": 0,
+            "spurious": 0,
+            "possible": 17,
+            "actual": 17,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "exact": {
+            "correct": 17,
+            "incorrect": 0,
+            "partial": 0,
+            "missed": 0,
+            "spurious": 0,
+            "possible": 17,
+            "actual": 17,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        }
+    },
+    {
+        "ent_type": {
+            "correct": 16,
+            "incorrect": 0,
+            "partial": 0,
+            "missed": 1,
+            "spurious": 1,
+            "possible": 17,
+            "actual": 17,
+            "precision": 0.9411764705882353,
+            "recall": 0.9411764705882353,
+            "f1": 0.9411764705882353
+        },
+        "partial": {
+            "correct": 15,
+            "incorrect": 0,
+            "partial": 1,
+            "missed": 1,
+            "spurious": 1,
+            "possible": 17,
+            "actual": 17,
+            "precision": 0.9117647058823529,
+            "recall": 0.9117647058823529,
+            "f1": 0.9117647058823528
+        },
+        "strict": {
+            "correct": 15,
+            "incorrect": 1,
+            "partial": 0,
+            "missed": 1,
+            "spurious": 1,
+            "possible": 17,
+            "actual": 17,
+            "precision": 0.8823529411764706,
+            "recall": 0.8823529411764706,
+            "f1": 0.8823529411764706
+        },
+        "exact": {
+            "correct": 15,
+            "incorrect": 1,
+            "partial": 0,
+            "missed": 1,
+            "spurious": 1,
+            "possible": 17,
+            "actual": 17,
+            "precision": 0.8823529411764706,
+            "recall": 0.8823529411764706,
+            "f1": 0.8823529411764706
+        }
+    },
+    {
+        "ent_type": {
+            "correct": 17,
+            "incorrect": 0,
+            "partial": 0,
+            "missed": 0,
+            "spurious": 0,
+            "possible": 17,
+            "actual": 17,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "partial": {
+            "correct": 17,
+            "incorrect": 0,
+            "partial": 0,
+            "missed": 0,
+            "spurious": 0,
+            "possible": 17,
+            "actual": 17,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "strict": {
+            "correct": 17,
+            "incorrect": 0,
+            "partial": 0,
+            "missed": 0,
+            "spurious": 0,
+            "possible": 17,
+            "actual": 17,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "exact": {
+            "correct": 17,
+            "incorrect": 0,
+            "partial": 0,
+            "missed": 0,
+            "spurious": 0,
+            "possible": 17,
+            "actual": 17,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        }
+    },
+    {
+        "ent_type": {
+            "correct": 13,
+            "incorrect": 0,
+            "partial": 0,
+            "missed": 0,
+            "spurious": 0,
+            "possible": 13,
+            "actual": 13,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "partial": {
+            "correct": 13,
+            "incorrect": 0,
+            "partial": 0,
+            "missed": 0,
+            "spurious": 0,
+            "possible": 13,
+            "actual": 13,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "strict": {
+            "correct": 13,
+            "incorrect": 0,
+            "partial": 0,
+            "missed": 0,
+            "spurious": 0,
+            "possible": 13,
+            "actual": 13,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "exact": {
+            "correct": 13,
+            "incorrect": 0,
+            "partial": 0,
+            "missed": 0,
+            "spurious": 0,
+            "possible": 13,
+            "actual": 13,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        }
+    },
+    {
+        "ent_type": {
+            "correct": 33,
+            "incorrect": 0,
+            "partial": 0,
+            "missed": 7,
+            "spurious": 7,
+            "possible": 40,
+            "actual": 40,
+            "precision": 0.825,
+            "recall": 0.825,
+            "f1": 0.825
+        },
+        "partial": {
+            "correct": 28,
+            "incorrect": 0,
+            "partial": 5,
+            "missed": 7,
+            "spurious": 7,
+            "possible": 40,
+            "actual": 40,
+            "precision": 0.7625,
+            "recall": 0.7625,
+            "f1": 0.7625
+        },
+        "strict": {
+            "correct": 28,
+            "incorrect": 5,
+            "partial": 0,
+            "missed": 7,
+            "spurious": 7,
+            "possible": 40,
+            "actual": 40,
+            "precision": 0.7,
+            "recall": 0.7,
+            "f1": 0.7
+        },
+        "exact": {
+            "correct": 28,
+            "incorrect": 5,
+            "partial": 0,
+            "missed": 7,
+            "spurious": 7,
+            "possible": 40,
+            "actual": 40,
+            "precision": 0.7,
+            "recall": 0.7,
+            "f1": 0.7
+        }
+    },
+    {
+        "ent_type": {
+            "correct": 13,
+            "incorrect": 0,
+            "partial": 0,
+            "missed": 0,
+            "spurious": 0,
+            "possible": 13,
+            "actual": 13,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "partial": {
+            "correct": 13,
+            "incorrect": 0,
+            "partial": 0,
+            "missed": 0,
+            "spurious": 0,
+            "possible": 13,
+            "actual": 13,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "strict": {
+            "correct": 13,
+            "incorrect": 0,
+            "partial": 0,
+            "missed": 0,
+            "spurious": 0,
+            "possible": 13,
+            "actual": 13,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "exact": {
+            "correct": 13,
+            "incorrect": 0,
+            "partial": 0,
+            "missed": 0,
+            "spurious": 0,
+            "possible": 13,
+            "actual": 13,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        }
+    },
+    {
+        "ent_type": {
+            "correct": 17,
+            "incorrect": 0,
+            "partial": 0,
+            "missed": 0,
+            "spurious": 0,
+            "possible": 17,
+            "actual": 17,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "partial": {
+            "correct": 16,
+            "incorrect": 0,
+            "partial": 1,
+            "missed": 0,
+            "spurious": 0,
+            "possible": 17,
+            "actual": 17,
+            "precision": 0.9705882352941176,
+            "recall": 0.9705882352941176,
+            "f1": 0.9705882352941176
+        },
+        "strict": {
+            "correct": 16,
+            "incorrect": 1,
+            "partial": 0,
+            "missed": 0,
+            "spurious": 0,
+            "possible": 17,
+            "actual": 17,
+            "precision": 0.9411764705882353,
+            "recall": 0.9411764705882353,
+            "f1": 0.9411764705882353
+        },
+        "exact": {
+            "correct": 16,
+            "incorrect": 1,
+            "partial": 0,
+            "missed": 0,
+            "spurious": 0,
+            "possible": 17,
+            "actual": 17,
+            "precision": 0.9411764705882353,
+            "recall": 0.9411764705882353,
+            "f1": 0.9411764705882353
+        }
+    },
+    {
+        "ent_type": {
+            "correct": 21,
+            "incorrect": 0,
+            "partial": 0,
+            "missed": 0,
+            "spurious": 0,
+            "possible": 21,
+            "actual": 21,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+        },
+        "partial": {
+            "correct": 20,
+            "incorrect": 0,
+            "partial": 1,
+            "missed": 0,
+            "spurious": 0,
+            "possible": 21,
+            "actual": 21,
+            "precision": 0.9761904761904762,
+            "recall": 0.9761904761904762,
+            "f1": 0.9761904761904762
+        },
+        "strict": {
+            "correct": 20,
+            "incorrect": 1,
+            "partial": 0,
+            "missed": 0,
+            "spurious": 0,
+            "possible": 21,
+            "actual": 21,
+            "precision": 0.9523809523809523,
+            "recall": 0.9523809523809523,
+            "f1": 0.9523809523809523
+        },
+        "exact": {
+            "correct": 20,
+            "incorrect": 1,
+            "partial": 0,
+            "missed": 0,
+            "spurious": 0,
+            "possible": 21,
+            "actual": 21,
+            "precision": 0.9523809523809523,
+            "recall": 0.9523809523809523,
+            "f1": 0.9523809523809523
+        }
+    }
+]

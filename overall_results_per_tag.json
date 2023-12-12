@@ -1,0 +1,6522 @@
+[
+    {
+        "MERCHANT": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "ADDRESS": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "CITY": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "STATE": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "PHONE": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "TAX": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "TOTAL": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "DATE": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "TIME": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "ITEM_DESC": {
+            "ent_type": {
+                "correct": 7,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 7,
+                "actual": 7,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 7,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 7,
+                "actual": 7,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 7,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 7,
+                "actual": 7,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 7,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 7,
+                "actual": 7,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "QTY": {
+            "ent_type": {
+                "correct": 7,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 7,
+                "actual": 7,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 7,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 7,
+                "actual": 7,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 7,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 7,
+                "actual": 7,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 7,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 7,
+                "actual": 7,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "UNIT_PRICE": {
+            "ent_type": {
+                "correct": 7,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 7,
+                "actual": 7,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 7,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 7,
+                "actual": 7,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 7,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 7,
+                "actual": 7,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 7,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 7,
+                "actual": 7,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "TOTAL_PRICE": {
+            "ent_type": {
+                "correct": 6,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 1,
+                "spurious": 1,
+                "possible": 7,
+                "actual": 7,
+                "precision": 0.8571428571428571,
+                "recall": 0.8571428571428571,
+                "f1": 0.8571428571428571
+            },
+            "partial": {
+                "correct": 6,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 1,
+                "spurious": 1,
+                "possible": 7,
+                "actual": 7,
+                "precision": 0.8571428571428571,
+                "recall": 0.8571428571428571,
+                "f1": 0.8571428571428571
+            },
+            "strict": {
+                "correct": 6,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 1,
+                "spurious": 1,
+                "possible": 7,
+                "actual": 7,
+                "precision": 0.8571428571428571,
+                "recall": 0.8571428571428571,
+                "f1": 0.8571428571428571
+            },
+            "exact": {
+                "correct": 6,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 1,
+                "spurious": 1,
+                "possible": 7,
+                "actual": 7,
+                "precision": 0.8571428571428571,
+                "recall": 0.8571428571428571,
+                "f1": 0.8571428571428571
+            }
+        }
+    },
+    {
+        "MERCHANT": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "ADDRESS": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "CITY": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "STATE": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "PHONE": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "TAX": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "TOTAL": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "DATE": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "TIME": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "ITEM_DESC": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "QTY": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "UNIT_PRICE": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "TOTAL_PRICE": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        }
+    },
+    {
+        "MERCHANT": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "ADDRESS": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "CITY": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "STATE": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "PHONE": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "TAX": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "TOTAL": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "DATE": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "TIME": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "ITEM_DESC": {
+            "ent_type": {
+                "correct": 2,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 2,
+                "actual": 2,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 2,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 2,
+                "actual": 2,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 2,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 2,
+                "actual": 2,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 2,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 2,
+                "actual": 2,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "QTY": {
+            "ent_type": {
+                "correct": 2,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 2,
+                "actual": 2,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 2,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 2,
+                "actual": 2,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 2,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 2,
+                "actual": 2,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 2,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 2,
+                "actual": 2,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "UNIT_PRICE": {
+            "ent_type": {
+                "correct": 2,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 2,
+                "actual": 2,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 2,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 2,
+                "actual": 2,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 2,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 2,
+                "actual": 2,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 2,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 2,
+                "actual": 2,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "TOTAL_PRICE": {
+            "ent_type": {
+                "correct": 2,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 2,
+                "actual": 2,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 2,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 2,
+                "actual": 2,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 2,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 2,
+                "actual": 2,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 2,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 2,
+                "actual": 2,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        }
+    },
+    {
+        "MERCHANT": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "ADDRESS": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "CITY": {
+            "ent_type": {
+                "correct": 0,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 1,
+                "spurious": 1,
+                "possible": 1,
+                "actual": 1,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0
+            },
+            "partial": {
+                "correct": 0,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 1,
+                "spurious": 1,
+                "possible": 1,
+                "actual": 1,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0
+            },
+            "strict": {
+                "correct": 0,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 1,
+                "spurious": 1,
+                "possible": 1,
+                "actual": 1,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0
+            },
+            "exact": {
+                "correct": 0,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 1,
+                "spurious": 1,
+                "possible": 1,
+                "actual": 1,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0
+            }
+        },
+        "STATE": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "PHONE": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "TAX": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "TOTAL": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "DATE": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "TIME": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "ITEM_DESC": {
+            "ent_type": {
+                "correct": 2,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 2,
+                "actual": 2,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 1,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 2,
+                "actual": 2,
+                "precision": 0.75,
+                "recall": 0.75,
+                "f1": 0.75
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 1,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 2,
+                "actual": 2,
+                "precision": 0.5,
+                "recall": 0.5,
+                "f1": 0.5
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 1,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 2,
+                "actual": 2,
+                "precision": 0.5,
+                "recall": 0.5,
+                "f1": 0.5
+            }
+        },
+        "QTY": {
+            "ent_type": {
+                "correct": 2,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 2,
+                "actual": 2,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 2,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 2,
+                "actual": 2,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 2,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 2,
+                "actual": 2,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 2,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 2,
+                "actual": 2,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "UNIT_PRICE": {
+            "ent_type": {
+                "correct": 2,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 2,
+                "actual": 2,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 2,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 2,
+                "actual": 2,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 2,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 2,
+                "actual": 2,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 2,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 2,
+                "actual": 2,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "TOTAL_PRICE": {
+            "ent_type": {
+                "correct": 2,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 2,
+                "actual": 2,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 2,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 2,
+                "actual": 2,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 2,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 2,
+                "actual": 2,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 2,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 2,
+                "actual": 2,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        }
+    },
+    {
+        "MERCHANT": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "ADDRESS": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "CITY": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "STATE": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "PHONE": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "TAX": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "TOTAL": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "DATE": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "TIME": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "ITEM_DESC": {
+            "ent_type": {
+                "correct": 2,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 2,
+                "actual": 2,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 2,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 2,
+                "actual": 2,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 2,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 2,
+                "actual": 2,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 2,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 2,
+                "actual": 2,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "QTY": {
+            "ent_type": {
+                "correct": 2,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 2,
+                "actual": 2,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 2,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 2,
+                "actual": 2,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 2,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 2,
+                "actual": 2,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 2,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 2,
+                "actual": 2,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "UNIT_PRICE": {
+            "ent_type": {
+                "correct": 2,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 2,
+                "actual": 2,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 2,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 2,
+                "actual": 2,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 2,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 2,
+                "actual": 2,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 2,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 2,
+                "actual": 2,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "TOTAL_PRICE": {
+            "ent_type": {
+                "correct": 2,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 2,
+                "actual": 2,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 2,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 2,
+                "actual": 2,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 2,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 2,
+                "actual": 2,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 2,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 2,
+                "actual": 2,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        }
+    },
+    {
+        "MERCHANT": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "ADDRESS": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "CITY": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "STATE": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "PHONE": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "TAX": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "TOTAL": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "DATE": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "TIME": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "ITEM_DESC": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "QTY": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "UNIT_PRICE": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "TOTAL_PRICE": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        }
+    },
+    {
+        "MERCHANT": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "ADDRESS": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "CITY": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "STATE": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "PHONE": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "TAX": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "TOTAL": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "DATE": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "TIME": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "ITEM_DESC": {
+            "ent_type": {
+                "correct": 6,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 1,
+                "spurious": 1,
+                "possible": 7,
+                "actual": 7,
+                "precision": 0.8571428571428571,
+                "recall": 0.8571428571428571,
+                "f1": 0.8571428571428571
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 5,
+                "missed": 1,
+                "spurious": 1,
+                "possible": 7,
+                "actual": 7,
+                "precision": 0.5,
+                "recall": 0.5,
+                "f1": 0.5
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 5,
+                "partial": 0,
+                "missed": 1,
+                "spurious": 1,
+                "possible": 7,
+                "actual": 7,
+                "precision": 0.14285714285714285,
+                "recall": 0.14285714285714285,
+                "f1": 0.14285714285714285
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 5,
+                "partial": 0,
+                "missed": 1,
+                "spurious": 1,
+                "possible": 7,
+                "actual": 7,
+                "precision": 0.14285714285714285,
+                "recall": 0.14285714285714285,
+                "f1": 0.14285714285714285
+            }
+        },
+        "QTY": {
+            "ent_type": {
+                "correct": 7,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 1,
+                "spurious": 1,
+                "possible": 8,
+                "actual": 8,
+                "precision": 0.875,
+                "recall": 0.875,
+                "f1": 0.875
+            },
+            "partial": {
+                "correct": 7,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 1,
+                "spurious": 1,
+                "possible": 8,
+                "actual": 8,
+                "precision": 0.875,
+                "recall": 0.875,
+                "f1": 0.875
+            },
+            "strict": {
+                "correct": 7,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 1,
+                "spurious": 1,
+                "possible": 8,
+                "actual": 8,
+                "precision": 0.875,
+                "recall": 0.875,
+                "f1": 0.875
+            },
+            "exact": {
+                "correct": 7,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 1,
+                "spurious": 1,
+                "possible": 8,
+                "actual": 8,
+                "precision": 0.875,
+                "recall": 0.875,
+                "f1": 0.875
+            }
+        },
+        "UNIT_PRICE": {
+            "ent_type": {
+                "correct": 6,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 2,
+                "spurious": 2,
+                "possible": 8,
+                "actual": 8,
+                "precision": 0.75,
+                "recall": 0.75,
+                "f1": 0.75
+            },
+            "partial": {
+                "correct": 6,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 2,
+                "spurious": 2,
+                "possible": 8,
+                "actual": 8,
+                "precision": 0.75,
+                "recall": 0.75,
+                "f1": 0.75
+            },
+            "strict": {
+                "correct": 6,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 2,
+                "spurious": 2,
+                "possible": 8,
+                "actual": 8,
+                "precision": 0.75,
+                "recall": 0.75,
+                "f1": 0.75
+            },
+            "exact": {
+                "correct": 6,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 2,
+                "spurious": 2,
+                "possible": 8,
+                "actual": 8,
+                "precision": 0.75,
+                "recall": 0.75,
+                "f1": 0.75
+            }
+        },
+        "TOTAL_PRICE": {
+            "ent_type": {
+                "correct": 5,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 3,
+                "spurious": 3,
+                "possible": 8,
+                "actual": 8,
+                "precision": 0.625,
+                "recall": 0.625,
+                "f1": 0.625
+            },
+            "partial": {
+                "correct": 5,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 3,
+                "spurious": 3,
+                "possible": 8,
+                "actual": 8,
+                "precision": 0.625,
+                "recall": 0.625,
+                "f1": 0.625
+            },
+            "strict": {
+                "correct": 5,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 3,
+                "spurious": 3,
+                "possible": 8,
+                "actual": 8,
+                "precision": 0.625,
+                "recall": 0.625,
+                "f1": 0.625
+            },
+            "exact": {
+                "correct": 5,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 3,
+                "spurious": 3,
+                "possible": 8,
+                "actual": 8,
+                "precision": 0.625,
+                "recall": 0.625,
+                "f1": 0.625
+            }
+        }
+    },
+    {
+        "MERCHANT": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "ADDRESS": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "CITY": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "STATE": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "PHONE": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "TAX": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "TOTAL": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "DATE": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "TIME": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "ITEM_DESC": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "QTY": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "UNIT_PRICE": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "TOTAL_PRICE": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        }
+    },
+    {
+        "MERCHANT": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "ADDRESS": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "CITY": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "STATE": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "PHONE": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "TAX": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "TOTAL": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "DATE": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "TIME": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "ITEM_DESC": {
+            "ent_type": {
+                "correct": 2,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 2,
+                "actual": 2,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 1,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 2,
+                "actual": 2,
+                "precision": 0.75,
+                "recall": 0.75,
+                "f1": 0.75
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 1,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 2,
+                "actual": 2,
+                "precision": 0.5,
+                "recall": 0.5,
+                "f1": 0.5
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 1,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 2,
+                "actual": 2,
+                "precision": 0.5,
+                "recall": 0.5,
+                "f1": 0.5
+            }
+        },
+        "QTY": {
+            "ent_type": {
+                "correct": 2,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 2,
+                "actual": 2,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 2,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 2,
+                "actual": 2,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 2,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 2,
+                "actual": 2,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 2,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 2,
+                "actual": 2,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "UNIT_PRICE": {
+            "ent_type": {
+                "correct": 2,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 2,
+                "actual": 2,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 2,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 2,
+                "actual": 2,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 2,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 2,
+                "actual": 2,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 2,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 2,
+                "actual": 2,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "TOTAL_PRICE": {
+            "ent_type": {
+                "correct": 2,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 2,
+                "actual": 2,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 2,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 2,
+                "actual": 2,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 2,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 2,
+                "actual": 2,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 2,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 2,
+                "actual": 2,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        }
+    },
+    {
+        "MERCHANT": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "ADDRESS": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 0,
+                "incorrect": 0,
+                "partial": 1,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 0.5,
+                "recall": 0.5,
+                "f1": 0.5
+            },
+            "strict": {
+                "correct": 0,
+                "incorrect": 1,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0
+            },
+            "exact": {
+                "correct": 0,
+                "incorrect": 1,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1": 0
+            }
+        },
+        "CITY": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "STATE": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "PHONE": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "TAX": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "TOTAL": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "DATE": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "TIME": {
+            "ent_type": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 1,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 1,
+                "actual": 1,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "ITEM_DESC": {
+            "ent_type": {
+                "correct": 3,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 3,
+                "actual": 3,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 3,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 3,
+                "actual": 3,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 3,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 3,
+                "actual": 3,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 3,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 3,
+                "actual": 3,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "QTY": {
+            "ent_type": {
+                "correct": 3,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 3,
+                "actual": 3,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 3,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 3,
+                "actual": 3,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 3,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 3,
+                "actual": 3,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 3,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 3,
+                "actual": 3,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "UNIT_PRICE": {
+            "ent_type": {
+                "correct": 3,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 3,
+                "actual": 3,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 3,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 3,
+                "actual": 3,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 3,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 3,
+                "actual": 3,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 3,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 3,
+                "actual": 3,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        },
+        "TOTAL_PRICE": {
+            "ent_type": {
+                "correct": 3,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 3,
+                "actual": 3,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "partial": {
+                "correct": 3,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 3,
+                "actual": 3,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "strict": {
+                "correct": 3,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 3,
+                "actual": 3,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            },
+            "exact": {
+                "correct": 3,
+                "incorrect": 0,
+                "partial": 0,
+                "missed": 0,
+                "spurious": 0,
+                "possible": 3,
+                "actual": 3,
+                "precision": 1.0,
+                "recall": 1.0,
+                "f1": 1.0
+            }
+        }
+    }
+]
