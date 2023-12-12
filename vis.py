@@ -25,7 +25,6 @@ for i,entry in enumerate(data):
 df_vendor_data = pd.DataFrame(vendor_data)
 
 df_vendor_data = df_vendor_data.drop(columns=['ITEMS'])
-print(df_vendor_data)
 
 product_data = []
 
@@ -42,9 +41,10 @@ df_product_data = df_product_data.drop(columns=['includedItems'])
 
 count_product = df_product_data['productClassification'].value_counts()
 
-print(count_product)
 
 count_vendor = df_vendor_data['vendorClassification'].value_counts()
+
+st.markdown("<h1 style='text-align: center;'>Receipt Parse</h1>", unsafe_allow_html=True)
 
 col1, col2 = st.columns([2,2])
 
