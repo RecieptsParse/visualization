@@ -1,10 +1,10 @@
 import json
 import subprocess
 
-try:
-    subprocess.run(['/bin/bash', 'install_packages.sh'], check=True)
-except subprocess.CalledProcessError as e:
-    print(f"Error running shell script: {e}")
+# try:
+#     subprocess.run(['/bin/bash', 'install_packages.sh'], check=True)
+# except subprocess.CalledProcessError as e:
+#     print(f"Error running shell script: {e}")
 
 import streamlit as st
 import pandas as pd
@@ -30,7 +30,7 @@ product_data = []
 for i, entry in enumerate(data):
     entry_data = entry['ReceiptInfo']['ITEMS']
     for j, items in enumerate(entry_data):
-        items['item_id'] = i
+        items['entry_id'] = i
         product_data.append(items)
     
 df_product_data = pd.DataFrame(product_data)
@@ -165,3 +165,10 @@ with st.expander("Additional Information for Named Entity Recognition (NER)"):
         The table above displays how well our JSON creation performed compared to our expected. From the above it can be observed that
              the JSONs were created as expected for the majority.
     """)
+
+
+combined_data = df_vendor_data.merge(df_product_data,how="inner",on='entry_id')
+
+grouped_data = combined_data.groupby(['productClassification','vendorClassification'])
+
+count_combined = grouped_data.size().reset_index(name='count')
