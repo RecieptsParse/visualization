@@ -11,35 +11,11 @@ import subprocess
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
+from sklearn.preprocessing import MinMaxScaler
 
 with open("data/classified_receipts.json", 'r') as json_file:
     # Load the JSON data
     data = json.load(json_file)
-
-
-vendor_clasified = dict()
-
-product_classified = dict()
-
-for i, receipt in enumerate(data):
-    vendor_class = receipt["ReceiptInfo"]['vendorClassification']
-    if vendor_class in vendor_clasified:
-        vendor_clasified[vendor_class] +=1
-    else:
-        vendor_clasified[vendor_class] = 1
-    
-    products = receipt['ReceiptInfo']['ITEMS']
-
-    for i, items in enumerate(products):
-        product_class = items['productClassification']
-        if product_class in product_classified:
-            product_classified[product_class] +=1
-        else:
-            product_classified[product_class] =1
-    
-
-# print(vendor_clasified)
-# print(product_classified)
 
 vendor_data = []
 for i,entry in enumerate(data):
@@ -64,6 +40,33 @@ for i, entry in enumerate(data):
 df_product_data = pd.DataFrame(product_data)
 
 df_product_data = df_product_data.drop(columns=['includedItems'])
-print(df_product_data)
+
+
+count_product = df_product_data['productClassification'].value_counts()
+
+print(count_product)
+
+count_vendor = df_vendor_data['vendorClassification'].value_counts()
+
+fig, ax = plt.subplots()
+count_vendor.plot(kind='bar', color='skyblue', ax=ax)
+plt.xticks(rotation=35, ha='right')
+
+plt.xlabel('Vendor Name')
+plt.ylabel('Vendor Frequency')
+plt.title('Histogram of Vendor Classification Counts')
+
+st.pyplot(fig)
+
+count_product.plot(kind='bar', color='skyblue', ax=ax)
+plt.xticks(rotation=35, ha='right')
+
+plt.xlabel('Product Name')
+plt.ylabel('Product Frequency')
+plt.title('Histogram of Vendor Classification Counts')
+
+st.pyplot(fig)
+
+
 
 
