@@ -1,9 +1,5 @@
-import os
 import json
-import sys
 import subprocess
-
-import ner_evaluate
 
 try:
     subprocess.run(['/bin/bash', 'install_packages.sh'], check=True)
