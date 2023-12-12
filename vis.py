@@ -48,24 +48,32 @@ print(count_product)
 
 count_vendor = df_vendor_data['vendorClassification'].value_counts()
 
-fig, ax = plt.subplots()
-count_vendor.plot(kind='bar', color='skyblue', ax=ax)
-plt.xticks(rotation=35, ha='right')
+col1, col2 = st.columns([2,2])
 
-plt.xlabel('Vendor Name')
-plt.ylabel('Vendor Frequency')
-plt.title('Histogram of Vendor Classification Counts')
+col1.bar_chart(count_vendor)
 
-st.pyplot(fig)
+col1.subheader('Vendor Classification')
 
-count_product.plot(kind='bar', color='skyblue', ax=ax)
-plt.xticks(rotation=35, ha='right')
+col2.bar_chart(count_product)
 
-plt.xlabel('Product Name')
-plt.ylabel('Product Frequency')
-plt.title('Histogram of Vendor Classification Counts')
+col2.subheader('Product Classification')
 
-st.pyplot(fig)
+# plt.xticks(rotation=35, ha='right')
+
+# plt.xlabel('Vendor Name')
+# plt.ylabel('Vendor Frequency')
+# plt.title('Histogram of Vendor Classification Counts')
+
+# st.pyplot(fig)
+
+# count_product.plot(kind='bar', color='skyblue', ax=ax)
+# plt.xticks(rotation=35, ha='right')
+
+# plt.xlabel('Product Name')
+# plt.ylabel('Product Frequency')
+# plt.title('Histogram of Vendor Classification Counts')
+
+# st.pyplot(fig)
 
 
 
