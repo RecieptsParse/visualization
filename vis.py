@@ -144,13 +144,14 @@ for category in categories:
         averages[metric][category] = statistics.mean([x[category][metric] for x in overall_results])
 
 # Convert the dictionary to a DataFrame
-df = pd.DataFrame(averages)
+df_NER = pd.DataFrame(averages)
 
 # Display the DataFrame
-print(df)
+print(df_NER)
 
 st.divider()
 
 st.markdown("<h3 style='text-align: center;'>NER performance</h3>", unsafe_allow_html=True)
 
-st.dataframe(df, use_container_width=True)
+st.dataframe(df_NER, use_container_width=True)
+
