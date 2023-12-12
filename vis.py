@@ -41,3 +41,15 @@ for i, receipt in enumerate(data):
 print(vendor_clasified)
 print(product_classified)
 
+df_data = []
+for entry in data:
+    entry_data = entry["ReceiptInfo"]
+    df_data.append(entry_data)
+
+
+df = pd.DataFrame(df_data)
+
+print(df)
+print(df.columns)
+
+
