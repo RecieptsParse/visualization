@@ -49,16 +49,25 @@ count_vendor = df_vendor_data['vendorClassification'].value_counts()
 
 st.markdown("<h1 style='text-align: center;'>Receipt Parse</h1>", unsafe_allow_html=True)
 
+st.divider()
+
 col1, col2 = st.columns([2,2])
 
-col1.bar_chart(count_vendor)
+col1.subheader(':blue[Vendor Classification]')
 
-col1.subheader('Vendor Classification')
+col1.bar_chart(count_vendor, color="#1338BE")
 
-col2.bar_chart(count_product)
+col2.subheader(':violet[Product Classification]')
 
-col2.subheader('Product Classification')
+col2.bar_chart(count_product, color="#B200ED")
 
+with st.sidebar:
+        st.title("About Us")
+        st.write("""Welcome to the final project visulization of ICS 438. Our group is made up of 4 members: Jeremiah Dy, Kylie Higashionna, Grayson Levy, Amanda Nitta.
+                 We created a parser to convert receipt data into structured JSON documents adhering to a specified schema utilizing ChatGPT4. We classified each receipt's 
+                 vendor and products into predefined categories using a classification method from the FAISS library which employed K-Nearest Neighbors.""")
+        st.link_button("OCR to JSON Repository", "https://github.com/RecieptsParse/OCR_TO_JSON")
+        st.link_button("Visualization Repository", "https://github.com/RecieptsParse/visualization")
 
 overall_results, overall_results_per_tag = ner_evaluate.get_results()
 
