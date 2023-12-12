@@ -81,7 +81,7 @@ with st.sidebar:
                  We created a parser to convert receipt data into structured JSON documents adhering to a specified schema utilizing ChatGPT4. We classified each receipt's 
                  vendor and products into predefined categories using a classification method from the FAISS library which employed K-Nearest Neighbors.
         """)
-        st.link_button("OCR to JSON Repository", "https://github.com/RecieptsParse/OCR_TO_JSON")
+        st.link_button("Optical Character Recognition - txt (OCR) to JSON Repository", "https://github.com/RecieptsParse/OCR_TO_JSON")
         st.link_button("Visualization Repository", "https://github.com/RecieptsParse/visualization")
 
 with open("overall_results.json", 'r') as overall_results_data:
