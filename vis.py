@@ -3,10 +3,10 @@ import json
 import sys
 import subprocess
 
-try:
-    subprocess.run(['/bin/bash', 'install_packages.sh'], check=True)
-except subprocess.CalledProcessError as e:
-    print(f"Error running shell script: {e}")
+# try:
+#     subprocess.run(['/bin/bash', 'install_packages.sh'], check=True)
+# except subprocess.CalledProcessError as e:
+#     print(f"Error running shell script: {e}")
 
 import streamlit as st
 import pandas as pd
@@ -38,18 +38,32 @@ for i, receipt in enumerate(data):
             product_classified[product_class] =1
     
 
-print(vendor_clasified)
-print(product_classified)
+# print(vendor_clasified)
+# print(product_classified)
 
-df_data = []
-for entry in data:
+vendor_data = []
+for i,entry in enumerate(data):
     entry_data = entry["ReceiptInfo"]
-    df_data.append(entry_data)
+    entry_data['entry_id'] = i
+    vendor_data.append(entry_data)
 
 
-df = pd.DataFrame(df_data)
+df_vendor_data = pd.DataFrame(vendor_data)
 
-print(df)
-print(df.columns)
+df_vendor_data = df_vendor_data.drop(columns=['ITEMS'])
+print(df_vendor_data)
+
+product_data = []
+
+for i, entry in enumerate(data):
+    entry_data = entry['ReceiptInfo']['ITEMS']
+    for j, items in enumerate(entry_data):
+        items['item_id'] = i
+        product_data.append(items)
+    
+df_product_data = pd.DataFrame(product_data)
+
+df_product_data = df_product_data.drop(columns=['includedItems'])
+print(df_product_data)
 
 
