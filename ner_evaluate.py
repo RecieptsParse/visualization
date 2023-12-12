@@ -1,6 +1,7 @@
 import os
 import json
 from nervaluate import Evaluator
+import statistics
 
 def get_results():
 
@@ -13,7 +14,6 @@ def get_results():
 
     def convert_to_prodigy_spans(receipt_text, entities):
         text_vals = {}
-        #entities = json.loads(entities)
         prodigy_data = []
         receipt_info = entities["ReceiptInfo"]
 

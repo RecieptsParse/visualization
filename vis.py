@@ -3,6 +3,8 @@ import json
 import sys
 import subprocess
 
+import ner_evaluate
+
 # try:
 #     subprocess.run(['/bin/bash', 'install_packages.sh'], check=True)
 # except subprocess.CalledProcessError as e:
@@ -10,6 +12,7 @@ import subprocess
 
 import streamlit as st
 import pandas as pd
+import statistics
 
 with open("data/classified_receipts.json", 'r') as json_file:
     # Load the JSON data
@@ -56,6 +59,32 @@ col2.bar_chart(count_product)
 
 col2.subheader('Product Classification')
 
+
+overall_results, overall_results_per_tag = ner_evaluate.get_results()
+
+precision_average_ent_type = statistics.mean([ x['ent_type']['precision'] for x in overall_results])
+recall_average_ent_type = statistics.mean( x['ent_type']['recall'] for x in overall_results)
+f1_average_ent_type = statistics.mean( x['ent_type']['f1'] for x in overall_results)
+correct_average_ent_type = statistics.mean( x['ent_type']['correct'] for x in overall_results)
+incorrect_average_ent_type = statistics.mean( x['ent_type']['incorrect'] for x in overall_results)
+
+precision_average_partial_type = statistics.mean([ x['partial']['precision'] for x in overall_results])
+recall_average_partial_type = statistics.mean( x['partial']['recall'] for x in overall_results)
+f1_average_partial_type = statistics.mean( x['partial']['f1'] for x in overall_results)
+correct_average_partial_type = statistics.mean( x['partial']['correct'] for x in overall_results)
+incorrect_average_partial_type = statistics.mean( x['partial']['incorrect'] for x in overall_results)
+
+precision_average_exact_type = statistics.mean([ x['exact']['precision'] for x in overall_results])
+recall_average_exact_type = statistics.mean( x['exact']['recall'] for x in overall_results)
+f1_average_exact_type = statistics.mean( x['exact']['f1'] for x in overall_results)
+correct_average_exact_type = statistics.mean( x['exact']['correct'] for x in overall_results)
+incorrect_average_exact_type = statistics.mean( x['exact']['incorrect'] for x in overall_results)
+
+precision_average_strict_type = statistics.mean([ x['strict']['precision'] for x in overall_results])
+recall_average_strict_type = statistics.mean( x['strict']['recall'] for x in overall_results)
+f1_average_strict_type = statistics.mean( x['strict']['f1'] for x in overall_results)
+correct_average_exact_type = statistics.mean( x['strict']['correct'] for x in overall_results)
+incorrect_average_exact_type = statistics.mean( x['strict']['incorrect'] for x in overall_results)
 
 
 
