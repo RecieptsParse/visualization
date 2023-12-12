@@ -158,7 +158,14 @@ print(df_NER)
 
 st.divider()
 
-st.markdown("<h3 style='text-align: center;'>NER performance</h3>", unsafe_allow_html=True)
+st.markdown("<h3 style='text-align: center;'>Named Entity Recognition (NER) performance</h3>", unsafe_allow_html=True)
 
 st.dataframe(df_NER, use_container_width=True)
 
+
+
+with st.expander("Additional Information for Named Entity Recognition"):
+    st.write("""
+        The table above displays how well our JSON creation performed compared to our expected. From the above it can be observed that
+             the JSONs were created as expected for the majority.
+    """)
