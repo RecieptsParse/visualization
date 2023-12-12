@@ -160,7 +160,7 @@ st.dataframe(df_NER, use_container_width=True)
 
 
 
-with st.expander("Additional Information for Named Entity Recognition"):
+with st.expander("Additional Information for Named Entity Recognition (NER)"):
     st.write("""
         The table above displays how well our JSON creation performed compared to our expected. From the above it can be observed that
              the JSONs were created as expected for the majority.
