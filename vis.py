@@ -12,8 +12,32 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 
-st.write("MY APP")
+with open("data/classified_receipts.json", 'r') as json_file:
+    # Load the JSON data
+    data = json.load(json_file)
 
-data = dict()
 
+vendor_clasified = dict()
+
+product_classified = dict()
+
+for i, receipt in enumerate(data):
+    vendor_class = receipt["ReceiptInfo"]['vendorClassification']
+    if vendor_class in vendor_clasified:
+        vendor_clasified[vendor_class] +=1
+    else:
+        vendor_clasified[vendor_class] = 1
+    
+    products = receipt['ReceiptInfo']['ITEMS']
+
+    for i, items in enumerate(products):
+        product_class = items['productClassification']
+        if product_class in product_classified:
+            product_classified[product_class] +=1
+        else:
+            product_classified[product_class] =1
+    
+
+print(vendor_clasified)
+print(product_classified)
 
