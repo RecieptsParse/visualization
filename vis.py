@@ -89,3 +89,21 @@ incorrect_average_exact_type = statistics.mean( x['strict']['incorrect'] for x i
 
 
 
+# Assuming overall_results is defined and structured appropriately
+
+# Define the categories
+categories = ['ent_type', 'partial', 'exact', 'strict']
+
+# Initialize a dictionary to hold the averages
+averages = {'precision': {}, 'recall': {}, 'f1': {}, 'correct': {}, 'incorrect': {}}
+
+# Compute averages for each category and metric
+for category in categories:
+    for metric in averages.keys():
+        averages[metric][category] = statistics.mean([x[category][metric] for x in overall_results])
+
+# Convert the dictionary to a DataFrame
+df = pd.DataFrame(averages)
+
+# Display the DataFrame
+print(df)
