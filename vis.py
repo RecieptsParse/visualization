@@ -10,8 +10,6 @@ import subprocess
 
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
-from sklearn.preprocessing import MinMaxScaler
 
 with open("data/classified_receipts.json", 'r') as json_file:
     # Load the JSON data
