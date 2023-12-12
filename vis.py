@@ -3,10 +3,10 @@ import json
 import sys
 import subprocess
 
-try:
-    subprocess.run(['/bin/bash', 'install_packages.sh'], check=True)
-except subprocess.CalledProcessError as e:
-    print(f"Error running shell script: {e}")
+# try:
+#     subprocess.run(['/bin/bash', 'install_packages.sh'], check=True)
+# except subprocess.CalledProcessError as e:
+#     print(f"Error running shell script: {e}")
 
 import streamlit as st
 import pandas as pd
@@ -56,22 +56,6 @@ col2.bar_chart(count_product)
 
 col2.subheader('Product Classification')
 
-# plt.xticks(rotation=35, ha='right')
-
-# plt.xlabel('Vendor Name')
-# plt.ylabel('Vendor Frequency')
-# plt.title('Histogram of Vendor Classification Counts')
-
-# st.pyplot(fig)
-
-# count_product.plot(kind='bar', color='skyblue', ax=ax)
-# plt.xticks(rotation=35, ha='right')
-
-# plt.xlabel('Product Name')
-# plt.ylabel('Product Frequency')
-# plt.title('Histogram of Vendor Classification Counts')
-
-# st.pyplot(fig)
 
 
 
