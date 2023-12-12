@@ -108,3 +108,5 @@ for pair in zip(ner_scores_golden, ner_scores_classified):
                                         ).evaluate()
     overall_results.append(results)
     overall_results_per_tag.append(results_per_tag)
+
+print(overall_results)
