@@ -88,7 +88,14 @@ with st.sidebar:
         st.link_button("OCR to JSON Repository", "https://github.com/RecieptsParse/OCR_TO_JSON")
         st.link_button("Visualization Repository", "https://github.com/RecieptsParse/visualization")
 
-overall_results, overall_results_per_tag = ner_evaluate.get_results()
+with open("overall_results.json", 'r') as overall_results_data:
+    # Load the JSON data
+    overall_results = json.load(overall_results_data)
+
+with open('overall_results_per_tag.json','r') as overall_results_per_tag_data:
+    overall_results_per_tag = json.load(overall_results_per_tag_data)
+
+
 
 precision_average_ent_type = statistics.mean([ x['ent_type']['precision'] for x in overall_results])
 recall_average_ent_type = statistics.mean( x['ent_type']['recall'] for x in overall_results)
