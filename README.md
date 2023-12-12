@@ -11,5 +11,4 @@ We created a parser to convert receipt data into structured JSON documents adher
 2. Navigate to vis.py 
 3. Run `streamlit run vis.py`
 
-Active DashBoard can be found at https://receipt-classification-visualization.streamlit.app/[https://receipt-classification-visualization.streamlit.app/]
-
+Active DashBoard can be found at https://receipt-classification-visualization.streamlit.app/
