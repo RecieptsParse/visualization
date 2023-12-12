@@ -57,15 +57,34 @@ col1.subheader(':blue[Vendor Classification]')
 
 col1.bar_chart(count_vendor, color="#1338BE")
 
+with col1:
+    with st.expander("Additional explanation to Vendor Classification"):
+        st.write("""
+            The chart above shows the frequency of receipts classified into one of six categories of vendors.
+            We can see that the Grocery and Supermarket category was the most prevalent with Restaurants and 
+            Food services coming in second. Many of the receipts were collected by college students who may buy 
+            more at food establishments than at other places of business. 
+        """)
+
 col2.subheader(':violet[Product Classification]')
 
 col2.bar_chart(count_product, color="#B200ED")
+
+with col2:
+    with st.expander("Additional explanation to Product Classification"):
+        st.write("""
+            The chart above shows the frequency of items that were classified into one of seventeen categories of 
+            products. We can see that the Food product category was the most prevalent with Beverages coming in second. 
+            This likely stems from most of the receipts being from Grocery and Supermarkets or Restaurants and Food 
+            services establishments.
+        """)
 
 with st.sidebar:
         st.title("About Us")
         st.write("""Welcome to the final project visulization of ICS 438. Our group is made up of 4 members: Jeremiah Dy, Kylie Higashionna, Grayson Levy, Amanda Nitta.
                  We created a parser to convert receipt data into structured JSON documents adhering to a specified schema utilizing ChatGPT4. We classified each receipt's 
-                 vendor and products into predefined categories using a classification method from the FAISS library which employed K-Nearest Neighbors.""")
+                 vendor and products into predefined categories using a classification method from the FAISS library which employed K-Nearest Neighbors.
+        """)
         st.link_button("OCR to JSON Repository", "https://github.com/RecieptsParse/OCR_TO_JSON")
         st.link_button("Visualization Repository", "https://github.com/RecieptsParse/visualization")
 
