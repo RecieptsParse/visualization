@@ -1,4 +1,4 @@
-# Visualization for ReceiptPrase
+# Visualization for ReceiptParse
 > Welcome to the final project visulization of ICS 438. Our group is made up of 4 members: Jeremiah Dy, Kylie Higashionna, Grayson Levy, Amanda Nitta.
 
 ## About
