@@ -95,24 +95,37 @@ recall_average_ent_type = statistics.mean( x['ent_type']['recall'] for x in over
 f1_average_ent_type = statistics.mean( x['ent_type']['f1'] for x in overall_results)
 correct_average_ent_type = statistics.mean( x['ent_type']['correct'] for x in overall_results)
 incorrect_average_ent_type = statistics.mean( x['ent_type']['incorrect'] for x in overall_results)
+partial_average_ent_type = statistics.mean( x['ent_type']['partial'] for x in overall_results)
+missed_average_ent_type = statistics.mean( x['ent_type']['missed'] for x in overall_results)
+spurious_average_ent_type = statistics.mean( x['ent_type']['spurious'] for x in overall_results)
+
 
 precision_average_partial_type = statistics.mean([ x['partial']['precision'] for x in overall_results])
 recall_average_partial_type = statistics.mean( x['partial']['recall'] for x in overall_results)
 f1_average_partial_type = statistics.mean( x['partial']['f1'] for x in overall_results)
 correct_average_partial_type = statistics.mean( x['partial']['correct'] for x in overall_results)
 incorrect_average_partial_type = statistics.mean( x['partial']['incorrect'] for x in overall_results)
+partial_average_partial_type = statistics.mean( x['partial']['partial'] for x in overall_results)
+missed_average_partial_type = statistics.mean( x['partial']['missed'] for x in overall_results)
+spurious_average_partial_type = statistics.mean( x['partial']['spurious'] for x in overall_results)
 
 precision_average_exact_type = statistics.mean([ x['exact']['precision'] for x in overall_results])
 recall_average_exact_type = statistics.mean( x['exact']['recall'] for x in overall_results)
 f1_average_exact_type = statistics.mean( x['exact']['f1'] for x in overall_results)
 correct_average_exact_type = statistics.mean( x['exact']['correct'] for x in overall_results)
 incorrect_average_exact_type = statistics.mean( x['exact']['incorrect'] for x in overall_results)
+partial_average_exact_type = statistics.mean( x['exact']['partial'] for x in overall_results)
+missed_average_exact_type = statistics.mean( x['exact']['missed'] for x in overall_results)
+spurious_average_exact_type = statistics.mean( x['exact']['spurious'] for x in overall_results)
 
 precision_average_strict_type = statistics.mean([ x['strict']['precision'] for x in overall_results])
 recall_average_strict_type = statistics.mean( x['strict']['recall'] for x in overall_results)
 f1_average_strict_type = statistics.mean( x['strict']['f1'] for x in overall_results)
-correct_average_exact_type = statistics.mean( x['strict']['correct'] for x in overall_results)
-incorrect_average_exact_type = statistics.mean( x['strict']['incorrect'] for x in overall_results)
+correct_average_strict_type = statistics.mean( x['strict']['correct'] for x in overall_results)
+incorrect_average_strict_type = statistics.mean( x['strict']['incorrect'] for x in overall_results)
+partial_average_strict_type = statistics.mean( x['strict']['partial'] for x in overall_results)
+missed_average_strict_type = statistics.mean( x['strict']['missed'] for x in overall_results)
+spurious_average_strict_type = statistics.mean( x['strict']['spurious'] for x in overall_results)
 
 
 
@@ -123,7 +136,7 @@ incorrect_average_exact_type = statistics.mean( x['strict']['incorrect'] for x i
 categories = ['ent_type', 'partial', 'exact', 'strict']
 
 # Initialize a dictionary to hold the averages
-averages = {'precision': {}, 'recall': {}, 'f1': {}, 'correct': {}, 'incorrect': {}}
+averages = {'precision': {}, 'recall': {}, 'f1': {}, 'correct': {}, 'incorrect': {}, 'partial': {}, 'missed': {}, 'spurious': {}}
 
 # Compute averages for each category and metric
 for category in categories:
@@ -135,3 +148,9 @@ df = pd.DataFrame(averages)
 
 # Display the DataFrame
 print(df)
+
+st.divider()
+
+st.markdown("<h3 style='text-align: center;'>NER performance</h3>", unsafe_allow_html=True)
+
+st.dataframe(df, use_container_width=True)
