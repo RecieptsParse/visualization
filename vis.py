@@ -188,8 +188,6 @@ with st.expander("Additional Explaination for Breakdown of Product Distribution"
         The charts below displays all seventeen different product categories and what type of vendor category people are buying these products from.
     """)
 
-st.divider()
-
 # combines product and vendor dataframes and counts occurences of the combinations
 combined_data = df_vendor_data.merge(df_product_data,how="inner",on='entry_id')
 
