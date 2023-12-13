@@ -15,6 +15,7 @@ with open("data/classified_receipts.json", 'r') as json_file:
     # Load the JSON data
     data = json.load(json_file)
 
+# creates dataframe for receipt info with id
 vendor_data = []
 for i,entry in enumerate(data):
     entry_data = entry["ReceiptInfo"]
@@ -23,9 +24,9 @@ for i,entry in enumerate(data):
 
 
 df_vendor_data = pd.DataFrame(vendor_data)
-
 df_vendor_data = df_vendor_data.drop(columns=['ITEMS'])
 
+# creates dataframe for products with entry id
 product_data = []
 
 for i, entry in enumerate(data):
@@ -35,19 +36,19 @@ for i, entry in enumerate(data):
         product_data.append(items)
     
 df_product_data = pd.DataFrame(product_data)
-
 df_product_data = df_product_data.drop(columns=['includedItems'])
 
-
+# determine amount for each product classification
 count_product = df_product_data['productClassification'].value_counts()
 
-
+# determine amount for each vendor classification
 count_vendor = df_vendor_data['vendorClassification'].value_counts()
 
 st.markdown("<h1 style='text-align: center;'>Receipt Parse</h1>", unsafe_allow_html=True)
 
 st.divider()
 
+# creates plot for vendor classifcation and information expander
 col1, col2 = st.columns([2,2])
 
 col1.subheader(':blue[Vendor Classification]')
@@ -63,6 +64,8 @@ with col1:
             more at food establishments than at other places of business. 
         """)
 
+# creates plot for product classifcation and information expander
+
 col2.subheader(':violet[Product Classification]')
 
 col2.bar_chart(count_product, color="#B200ED")
@@ -76,6 +79,7 @@ with col2:
             services establishments.
         """)
 
+# creates sidebar explaining project
 with st.sidebar:
         st.title("About Us")
         st.write("""Welcome to the final project visulization of ICS 438. Our group is made up of 4 members: Jeremiah Dy, Kylie Higashionna, Grayson Levy, Amanda Nitta.
@@ -85,6 +89,8 @@ with st.sidebar:
         st.link_button("Optical Character Recognition - txt (OCR) to JSON Repository", "https://github.com/RecieptsParse/OCR_TO_JSON")
         st.link_button("Visualization Repository", "https://github.com/RecieptsParse/visualization")
 
+# loads in results of NER Evaluate
+
 with open("overall_results.json", 'r') as overall_results_data:
     # Load the JSON data
     overall_results = json.load(overall_results_data)
@@ -93,7 +99,7 @@ with open('overall_results_per_tag.json','r') as overall_results_per_tag_data:
     overall_results_per_tag = json.load(overall_results_per_tag_data)
 
 
-
+# gets the mean for each metric/ category
 precision_average_ent_type = statistics.mean([ x['ent_type']['precision'] for x in overall_results])
 recall_average_ent_type = statistics.mean( x['ent_type']['recall'] for x in overall_results)
 f1_average_ent_type = statistics.mean( x['ent_type']['f1'] for x in overall_results)
@@ -175,6 +181,7 @@ with st.expander("Additional Explaination for Breakdown of Product Distribution(
 
 st.divider()
 
+# combines product and vendor dataframes and counts occurences of the combinations
 combined_data = df_vendor_data.merge(df_product_data,how="inner",on='entry_id')
 
 grouped_data = combined_data.groupby(['productClassification','vendorClassification'])
@@ -185,27 +192,28 @@ count_combined_product = count_combined.groupby('productClassification')
 
 product_category = [ 'Food Products',  'Beverages', 'Health And Beauty',  'Clothing And Accessories', 'Electronics',  'Home',  'Outdoor Goods', 'Automotive', 'Toys And Games', 'Sporting Goods', 'Books And Stationery', 'Pharmacy And Health Products', 'Pet Supplies', 'Baby Products', 'Cleaning Supplies', 'Gifts And Miscellaneous', 'Event Tickets']
 
+# creates plots displaying where products are bought per vendor
 col1, col2, col3 = st.columns([3,3,3])
 
 i = 0
 
 while i < 3:
-    data_1 = count_combined_product.get_group(product_category[i])
-    data_1 = data_1.drop(columns='productClassification', index=None)
+    food_data = count_combined_product.get_group(product_category[i])
+    food_data = food_data.drop(columns='productClassification', index=None)
     col1.subheader(f':black[{product_category[i]}]')
-    col1.bar_chart(data_1.set_index('vendorClassification'), color="#B7C5FF")
+    col1.bar_chart(food_data.set_index('vendorClassification'), color="#B7C5FF")
     i+=1
 
-    data_2 = count_combined_product.get_group(product_category[i])
-    data_2 = data_2.drop(columns='productClassification', index=None)
+    beverage_data = count_combined_product.get_group(product_category[i])
+    beverage_data = beverage_data.drop(columns='productClassification', index=None)
     col2.subheader(f':black[{product_category[i]}]')
-    col2.bar_chart(data_2.set_index('vendorClassification'), color="#B7C5FF")
+    col2.bar_chart(beverage_data.set_index('vendorClassification'), color="#B7C5FF")
     i+=1
 
-    data_3 = count_combined_product.get_group(product_category[i])
-    data_3 = data_3.drop(columns='productClassification', index=None)
+    health_beauty_data = count_combined_product.get_group(product_category[i])
+    health_beauty_data = health_beauty_data.drop(columns='productClassification', index=None)
     col3.subheader(f':black[{product_category[i]}]')
-    col3.bar_chart(data_3.set_index('vendorClassification'), color="#B7C5FF")
+    col3.bar_chart(health_beauty_data.set_index('vendorClassification'), color="#B7C5FF")
     i+=1
 
 st.divider()
@@ -213,22 +221,22 @@ st.divider()
 col1, col2, col3 = st.columns([3,3,3])
 
 while i < 6:
-    data_1 = count_combined_product.get_group(product_category[i])
-    data_1 = data_1.drop(columns='productClassification', index=None)
+    clothing_acces_data = count_combined_product.get_group(product_category[i])
+    clothing_acces_data = clothing_acces_data.drop(columns='productClassification', index=None)
     col1.subheader(f':black[{product_category[i]}]')
-    col1.bar_chart(data_1.set_index('vendorClassification'), color="#B7C5FF")
+    col1.bar_chart(clothing_acces_data.set_index('vendorClassification'), color="#B7C5FF")
     i+=1
 
-    data_2 = count_combined_product.get_group(product_category[i])
-    data_2 = data_2.drop(columns='productClassification', index=None)
+    electronics_data = count_combined_product.get_group(product_category[i])
+    electronics_data = electronics_data.drop(columns='productClassification', index=None)
     col2.subheader(f':black[{product_category[i]}]')
-    col2.bar_chart(data_2.set_index('vendorClassification'), color="#B7C5FF")
+    col2.bar_chart(electronics_data.set_index('vendorClassification'), color="#B7C5FF")
     i+=1
 
-    data_3 = count_combined_product.get_group(product_category[i])
-    data_3 = data_3.drop(columns='productClassification', index=None)
+    home_data = count_combined_product.get_group(product_category[i])
+    home_data = home_data.drop(columns='productClassification', index=None)
     col3.subheader(f':black[{product_category[i]}]')
-    col3.bar_chart(data_3.set_index('vendorClassification'), color="#B7C5FF")
+    col3.bar_chart(home_data.set_index('vendorClassification'), color="#B7C5FF")
     i+=1
 
 st.divider()
@@ -236,22 +244,22 @@ st.divider()
 col1, col2, col3 = st.columns([3,3,3])
 
 while i < 9:
-    data_1 = count_combined_product.get_group(product_category[i])
-    data_1 = data_1.drop(columns='productClassification', index=None)
+    outdoor_data = count_combined_product.get_group(product_category[i])
+    outdoor_data = outdoor_data.drop(columns='productClassification', index=None)
     col1.subheader(f':black[{product_category[i]}]')
-    col1.bar_chart(data_1.set_index('vendorClassification'), color="#B7C5FF")
+    col1.bar_chart(outdoor_data.set_index('vendorClassification'), color="#B7C5FF")
     i+=1
 
-    data_2 = count_combined_product.get_group(product_category[i])
-    data_2 = data_2.drop(columns='productClassification', index=None)
+    automotive_data = count_combined_product.get_group(product_category[i])
+    automotive_data = automotive_data.drop(columns='productClassification', index=None)
     col2.subheader(f':black[{product_category[i]}]')
-    col2.bar_chart(data_2.set_index('vendorClassification'), color="#B7C5FF")
+    col2.bar_chart(automotive_data.set_index('vendorClassification'), color="#B7C5FF")
     i+=1
 
-    data_3 = count_combined_product.get_group(product_category[i])
-    data_3 = data_3.drop(columns='productClassification', index=None)
+    toys_games_data = count_combined_product.get_group(product_category[i])
+    toys_games_data = toys_games_data.drop(columns='productClassification', index=None)
     col3.subheader(f':black[{product_category[i]}]')
-    col3.bar_chart(data_3.set_index('vendorClassification'), color="#B7C5FF")
+    col3.bar_chart(toys_games_data.set_index('vendorClassification'), color="#B7C5FF")
     i+=1
 
 st.divider()
@@ -259,22 +267,22 @@ st.divider()
 col1, col2, col3 = st.columns([3,3,3])
 
 while i < 12:
-    data_1 = count_combined_product.get_group(product_category[i])
-    data_1 = data_1.drop(columns='productClassification', index=None)
+    sporting_data = count_combined_product.get_group(product_category[i])
+    sporting_data = sporting_data.drop(columns='productClassification', index=None)
     col1.subheader(f':black[{product_category[i]}]')
-    col1.bar_chart(data_1.set_index('vendorClassification'), color="#B7C5FF")
+    col1.bar_chart(sporting_data.set_index('vendorClassification'), color="#B7C5FF")
     i+=1
 
-    data_2 = count_combined_product.get_group(product_category[i])
-    data_2 = data_2.drop(columns='productClassification', index=None)
+    books_stationary_data = count_combined_product.get_group(product_category[i])
+    books_stationary_data = books_stationary_data.drop(columns='productClassification', index=None)
     col2.subheader(f':black[{product_category[i]}]')
-    col2.bar_chart(data_2.set_index('vendorClassification'), color="#B7C5FF")
+    col2.bar_chart(books_stationary_data.set_index('vendorClassification'), color="#B7C5FF")
     i+=1
 
-    data_3 = count_combined_product.get_group(product_category[i])
-    data_3 = data_3.drop(columns='productClassification', index=None)
+    pharmacy_health_data = count_combined_product.get_group(product_category[i])
+    pharmacy_health_data = pharmacy_health_data.drop(columns='productClassification', index=None)
     col3.subheader(f':black[{product_category[i]}]')
-    col3.bar_chart(data_3.set_index('vendorClassification'), color="#B7C5FF")
+    col3.bar_chart(pharmacy_health_data.set_index('vendorClassification'), color="#B7C5FF")
     i+=1
 
 st.divider()
@@ -282,22 +290,22 @@ st.divider()
 col1, col2,col3 = st.columns([3,3,3])
 
 while i < 15:
-    data_1 = count_combined_product.get_group(product_category[i])
-    data_1 = data_1.drop(columns='productClassification', index=None)
+    pet_supplies_data = count_combined_product.get_group(product_category[i])
+    pet_supplies_data = pet_supplies_data.drop(columns='productClassification', index=None)
     col1.subheader(f':black[{product_category[i]}]')
-    col1.bar_chart(data_1.set_index('vendorClassification'), color="#B7C5FF")
+    col1.bar_chart(pet_supplies_data.set_index('vendorClassification'), color="#B7C5FF")
     i+=1
 
-    data_2 = count_combined_product.get_group(product_category[i])
-    data_2 = data_2.drop(columns='productClassification', index=None)
+    baby_products_data = count_combined_product.get_group(product_category[i])
+    baby_products_data = baby_products_data.drop(columns='productClassification', index=None)
     col2.subheader(f':black[{product_category[i]}]')
-    col2.bar_chart(data_2.set_index('vendorClassification'), color="#B7C5FF")
+    col2.bar_chart(baby_products_data.set_index('vendorClassification'), color="#B7C5FF")
     i+=1
 
-    data_3 = count_combined_product.get_group(product_category[i])
-    data_3 = data_3.drop(columns='productClassification', index=None)
+    cleaning_supplies_data = count_combined_product.get_group(product_category[i])
+    cleaning_supplies_data = cleaning_supplies_data.drop(columns='productClassification', index=None)
     col3.subheader(f':black[{product_category[i]}]')
-    col3.bar_chart(data_3.set_index('vendorClassification'), color="#B7C5FF")
+    col3.bar_chart(cleaning_supplies_data.set_index('vendorClassification'), color="#B7C5FF")
     i+=1
 
 st.divider()
@@ -306,16 +314,16 @@ st.divider()
 col1, col2 = st.columns([3,3])
 
 while i < 17:
-    data_1 = count_combined_product.get_group(product_category[i])
-    data_1 = data_1.drop(columns='productClassification', index=None)
+    gifts_mis_data = count_combined_product.get_group(product_category[i])
+    gifts_mis_data = gifts_mis_data.drop(columns='productClassification', index=None)
     col1.subheader(f':black[{product_category[i]}]')
-    col1.bar_chart(data_1.set_index('vendorClassification'), color="#B7C5FF")
+    col1.bar_chart(gifts_mis_data.set_index('vendorClassification'), color="#B7C5FF")
     i+=1
 
-    data_2 = count_combined_product.get_group(product_category[i])
-    data_2 = data_2.drop(columns='productClassification', index=None)
+    event_ticket_data = count_combined_product.get_group(product_category[i])
+    event_ticket_data = event_ticket_data.drop(columns='productClassification', index=None)
     col2.subheader(f':black[{product_category[i]}]')
-    col2.bar_chart(data_2.set_index('vendorClassification'), color="#B7C5FF")
+    col2.bar_chart(event_ticket_data.set_index('vendorClassification'), color="#B7C5FF")
     i+=1
 
 st.divider()
