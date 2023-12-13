@@ -149,9 +149,6 @@ for category in categories:
 # Convert the dictionary to a DataFrame
 df_NER = pd.DataFrame(averages)
 
-# Display the DataFrame
-print(df_NER)
-
 st.divider()
 
 st.markdown("<h3 style='text-align: center;'>Named Entity Recognition (NER) performance</h3>", unsafe_allow_html=True)
@@ -172,3 +169,35 @@ combined_data = df_vendor_data.merge(df_product_data,how="inner",on='entry_id')
 grouped_data = combined_data.groupby(['productClassification','vendorClassification'])
 
 count_combined = grouped_data.size().reset_index(name='count')
+
+count_combined_product = count_combined.groupby('productClassification')
+
+product_category = [ 'Food Products',  'Beverages', 'Health And Beauty',  'Clothing And Accessories', 'Electronics',  'Home',  'Outdoor Goods', 'Automotive', 'Toys And Games', 'Sporting Goods', 'Books And Stationery', 'Pharmacy And Health Products', 'Pet Supplies', 'Baby Products', 'Cleaning Supplies', 'Gifts And Miscellaneous', 'Event Tickets']
+
+col1, col2, col3 = st.columns([3,3,3])
+
+i = 0
+
+while (i + 3) <= len(product_category):
+    data_1 = count_combined_product.get_group(product_category[i])
+    data_1 = data_1.drop(columns='productClassification', index=None)
+    col1.subheader(f':blue[{product_category[i]}]')
+    col1.bar_chart(data_1.set_index('vendorClassification'))
+    i+=1
+    col1.divider()
+
+    data_2 = count_combined_product.get_group(product_category[i])
+    data_2 = data_2.drop(columns='productClassification', index=None)
+    col2.subheader(f':blue[{product_category[i]}]')
+    col2.bar_chart(data_1.set_index('vendorClassification'))
+    i+=1
+    col2.divider()
+
+    data_3 = count_combined_product.get_group(product_category[i])
+    data_3 = data_3.drop(columns='productClassification', index=None)
+    col3.subheader(f':blue[{product_category[i]}]')
+    col3.bar_chart(data_1.set_index('vendorClassification'))
+    i+=1
+
+    col3.divider()
+
