@@ -1,10 +1,7 @@
 import json
 import subprocess
 
-try:
-    subprocess.run(['/bin/bash', 'install_packages.sh'], check=True)
-except subprocess.CalledProcessError as e:
-    print(f"Error running shell script: {e}")
+# s
 
 import streamlit as st
 import pandas as pd
@@ -209,133 +206,18 @@ col1, col2, col3 = st.columns([3,3,3])
 
 i = 0
 
-while i < 3:
-    food_data = count_combined_product.get_group(product_category[i])
-    food_data = food_data.drop(columns='productClassification', index=None)
-    col1.subheader(f':black[{product_category[i]}]')
-    col1.bar_chart(food_data.set_index('vendorClassification'), color="#B7C5FF")
-    i+=1
+number_cat = len(product_category)
 
-    beverage_data = count_combined_product.get_group(product_category[i])
-    beverage_data = beverage_data.drop(columns='productClassification', index=None)
-    col2.subheader(f':black[{product_category[i]}]')
-    col2.bar_chart(beverage_data.set_index('vendorClassification'), color="#B7C5FF")
-    i+=1
-
-    health_beauty_data = count_combined_product.get_group(product_category[i])
-    health_beauty_data = health_beauty_data.drop(columns='productClassification', index=None)
-    col3.subheader(f':black[{product_category[i]}]')
-    col3.bar_chart(health_beauty_data.set_index('vendorClassification'), color="#B7C5FF")
-    i+=1
-
-st.divider()
-
-col1, col2, col3 = st.columns([3,3,3])
-
-while i < 6:
-    clothing_acces_data = count_combined_product.get_group(product_category[i])
-    clothing_acces_data = clothing_acces_data.drop(columns='productClassification', index=None)
-    col1.subheader(f':black[{product_category[i]}]')
-    col1.bar_chart(clothing_acces_data.set_index('vendorClassification'), color="#B7C5FF")
-    i+=1
-
-    electronics_data = count_combined_product.get_group(product_category[i])
-    electronics_data = electronics_data.drop(columns='productClassification', index=None)
-    col2.subheader(f':black[{product_category[i]}]')
-    col2.bar_chart(electronics_data.set_index('vendorClassification'), color="#B7C5FF")
-    i+=1
-
-    home_data = count_combined_product.get_group(product_category[i])
-    home_data = home_data.drop(columns='productClassification', index=None)
-    col3.subheader(f':black[{product_category[i]}]')
-    col3.bar_chart(home_data.set_index('vendorClassification'), color="#B7C5FF")
-    i+=1
-
-st.divider()
-
-col1, col2, col3 = st.columns([3,3,3])
-
-while i < 9:
-    outdoor_data = count_combined_product.get_group(product_category[i])
-    outdoor_data = outdoor_data.drop(columns='productClassification', index=None)
-    col1.subheader(f':black[{product_category[i]}]')
-    col1.bar_chart(outdoor_data.set_index('vendorClassification'), color="#B7C5FF")
-    i+=1
-
-    automotive_data = count_combined_product.get_group(product_category[i])
-    automotive_data = automotive_data.drop(columns='productClassification', index=None)
-    col2.subheader(f':black[{product_category[i]}]')
-    col2.bar_chart(automotive_data.set_index('vendorClassification'), color="#B7C5FF")
-    i+=1
-
-    toys_games_data = count_combined_product.get_group(product_category[i])
-    toys_games_data = toys_games_data.drop(columns='productClassification', index=None)
-    col3.subheader(f':black[{product_category[i]}]')
-    col3.bar_chart(toys_games_data.set_index('vendorClassification'), color="#B7C5FF")
-    i+=1
-
-st.divider()
-
-col1, col2, col3 = st.columns([3,3,3])
-
-while i < 12:
-    sporting_data = count_combined_product.get_group(product_category[i])
-    sporting_data = sporting_data.drop(columns='productClassification', index=None)
-    col1.subheader(f':black[{product_category[i]}]')
-    col1.bar_chart(sporting_data.set_index('vendorClassification'), color="#B7C5FF")
-    i+=1
-
-    books_stationary_data = count_combined_product.get_group(product_category[i])
-    books_stationary_data = books_stationary_data.drop(columns='productClassification', index=None)
-    col2.subheader(f':black[{product_category[i]}]')
-    col2.bar_chart(books_stationary_data.set_index('vendorClassification'), color="#B7C5FF")
-    i+=1
-
-    pharmacy_health_data = count_combined_product.get_group(product_category[i])
-    pharmacy_health_data = pharmacy_health_data.drop(columns='productClassification', index=None)
-    col3.subheader(f':black[{product_category[i]}]')
-    col3.bar_chart(pharmacy_health_data.set_index('vendorClassification'), color="#B7C5FF")
-    i+=1
-
-st.divider()
-
-col1, col2,col3 = st.columns([3,3,3])
-
-while i < 15:
-    pet_supplies_data = count_combined_product.get_group(product_category[i])
-    pet_supplies_data = pet_supplies_data.drop(columns='productClassification', index=None)
-    col1.subheader(f':black[{product_category[i]}]')
-    col1.bar_chart(pet_supplies_data.set_index('vendorClassification'), color="#B7C5FF")
-    i+=1
-
-    baby_products_data = count_combined_product.get_group(product_category[i])
-    baby_products_data = baby_products_data.drop(columns='productClassification', index=None)
-    col2.subheader(f':black[{product_category[i]}]')
-    col2.bar_chart(baby_products_data.set_index('vendorClassification'), color="#B7C5FF")
-    i+=1
-
-    cleaning_supplies_data = count_combined_product.get_group(product_category[i])
-    cleaning_supplies_data = cleaning_supplies_data.drop(columns='productClassification', index=None)
-    col3.subheader(f':black[{product_category[i]}]')
-    col3.bar_chart(cleaning_supplies_data.set_index('vendorClassification'), color="#B7C5FF")
-    i+=1
-
-st.divider()
-
-
-col1, col2 = st.columns([3,3])
-
-while i < 17:
-    gifts_mis_data = count_combined_product.get_group(product_category[i])
-    gifts_mis_data = gifts_mis_data.drop(columns='productClassification', index=None)
-    col1.subheader(f':black[{product_category[i]}]')
-    col1.bar_chart(gifts_mis_data.set_index('vendorClassification'), color="#B7C5FF")
-    i+=1
-
-    event_ticket_data = count_combined_product.get_group(product_category[i])
-    event_ticket_data = event_ticket_data.drop(columns='productClassification', index=None)
-    col2.subheader(f':black[{product_category[i]}]')
-    col2.bar_chart(event_ticket_data.set_index('vendorClassification'), color="#B7C5FF")
-    i+=1
-
-st.divider()
+while i < number_cat:
+    if i % 3 == 0:
+        st.divider()
+        col1, col2, col3 = st.columns([3,3,3])
+        arr_cols = [col1,col2,col3]
+    for j in range(len(arr_cols)):
+        count_product_info = count_combined_product.get_group(product_category[i])
+        count_product_info = count_product_info.drop(columns='productClassification', index=None)
+        arr_cols[j].subheader(f':black[{product_category[i]}]')
+        arr_cols[j].bar_chart(count_product_info.set_index('vendorClassification'), color="#B7C5FF")
+        i+=1
+        if i >= number_cat:
+            break
