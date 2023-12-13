@@ -174,7 +174,7 @@ st.divider()
 
 st.markdown("<h3 style='text-align: center;'>Breakdown of Product Distribution Among the Vendors</h3>", unsafe_allow_html=True)
 
-with st.expander("Additional Explaination for Breakdown of Product Distribution(NER)"):
+with st.expander("Additional Explaination for Breakdown of Product Distribution (NER)"):
     st.write("""
         The charts below displays all seventeen different product categories and what type of vendor category people are buying these products from.
     """)
