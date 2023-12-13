@@ -7,3 +7,5 @@ pip install matplotlib
 pip install statistics
 
 pip install nervaluate
+
+pip install jsonschema

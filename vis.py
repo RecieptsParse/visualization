@@ -1,10 +1,10 @@
 import json
 import subprocess
 
-try:
-    subprocess.run(['/bin/bash', 'install_packages.sh'], check=True)
-except subprocess.CalledProcessError as e:
-    print(f"Error running shell script: {e}")
+# try:
+#     subprocess.run(['/bin/bash', 'install_packages.sh'], check=True)
+# except subprocess.CalledProcessError as e:
+#     print(f"Error running shell script: {e}")
 
 import streamlit as st
 import pandas as pd
@@ -178,26 +178,133 @@ col1, col2, col3 = st.columns([3,3,3])
 
 i = 0
 
-while (i + 3) <= len(product_category):
+while i < 3:
     data_1 = count_combined_product.get_group(product_category[i])
     data_1 = data_1.drop(columns='productClassification', index=None)
     col1.subheader(f':blue[{product_category[i]}]')
     col1.bar_chart(data_1.set_index('vendorClassification'))
     i+=1
-    col1.divider()
 
     data_2 = count_combined_product.get_group(product_category[i])
     data_2 = data_2.drop(columns='productClassification', index=None)
     col2.subheader(f':blue[{product_category[i]}]')
-    col2.bar_chart(data_1.set_index('vendorClassification'))
+    col2.bar_chart(data_2.set_index('vendorClassification'))
     i+=1
-    col2.divider()
 
     data_3 = count_combined_product.get_group(product_category[i])
     data_3 = data_3.drop(columns='productClassification', index=None)
     col3.subheader(f':blue[{product_category[i]}]')
-    col3.bar_chart(data_1.set_index('vendorClassification'))
+    col3.bar_chart(data_3.set_index('vendorClassification'))
     i+=1
 
-    col3.divider()
+st.divider()
 
+col1, col2, col3 = st.columns([3,3,3])
+
+while i < 6:
+    data_1 = count_combined_product.get_group(product_category[i])
+    data_1 = data_1.drop(columns='productClassification', index=None)
+    col1.subheader(f':blue[{product_category[i]}]')
+    col1.bar_chart(data_1.set_index('vendorClassification'))
+    i+=1
+
+    data_2 = count_combined_product.get_group(product_category[i])
+    data_2 = data_2.drop(columns='productClassification', index=None)
+    col2.subheader(f':blue[{product_category[i]}]')
+    col2.bar_chart(data_2.set_index('vendorClassification'))
+    i+=1
+
+    data_3 = count_combined_product.get_group(product_category[i])
+    data_3 = data_3.drop(columns='productClassification', index=None)
+    col3.subheader(f':blue[{product_category[i]}]')
+    col3.bar_chart(data_3.set_index('vendorClassification'))
+    i+=1
+
+st.divider()
+
+col1, col2, col3 = st.columns([3,3,3])
+
+while i < 9:
+    data_1 = count_combined_product.get_group(product_category[i])
+    data_1 = data_1.drop(columns='productClassification', index=None)
+    col1.subheader(f':blue[{product_category[i]}]')
+    col1.bar_chart(data_1.set_index('vendorClassification'))
+    i+=1
+
+    data_2 = count_combined_product.get_group(product_category[i])
+    data_2 = data_2.drop(columns='productClassification', index=None)
+    col2.subheader(f':blue[{product_category[i]}]')
+    col2.bar_chart(data_2.set_index('vendorClassification'))
+    i+=1
+
+    data_3 = count_combined_product.get_group(product_category[i])
+    data_3 = data_3.drop(columns='productClassification', index=None)
+    col3.subheader(f':blue[{product_category[i]}]')
+    col3.bar_chart(data_3.set_index('vendorClassification'))
+    i+=1
+
+st.divider()
+
+col1, col2, col3 = st.columns([3,3,3])
+
+while i < 12:
+    data_1 = count_combined_product.get_group(product_category[i])
+    data_1 = data_1.drop(columns='productClassification', index=None)
+    col1.subheader(f':blue[{product_category[i]}]')
+    col1.bar_chart(data_1.set_index('vendorClassification'))
+    i+=1
+
+    data_2 = count_combined_product.get_group(product_category[i])
+    data_2 = data_2.drop(columns='productClassification', index=None)
+    col2.subheader(f':blue[{product_category[i]}]')
+    col2.bar_chart(data_2.set_index('vendorClassification'))
+    i+=1
+
+    data_3 = count_combined_product.get_group(product_category[i])
+    data_3 = data_3.drop(columns='productClassification', index=None)
+    col3.subheader(f':blue[{product_category[i]}]')
+    col3.bar_chart(data_3.set_index('vendorClassification'))
+    i+=1
+
+st.divider()
+
+col1, col2,col3 = st.columns([3,3,3])
+
+while i < 15:
+    data_1 = count_combined_product.get_group(product_category[i])
+    data_1 = data_1.drop(columns='productClassification', index=None)
+    col1.subheader(f':blue[{product_category[i]}]')
+    col1.bar_chart(data_1.set_index('vendorClassification'))
+    i+=1
+
+    data_2 = count_combined_product.get_group(product_category[i])
+    data_2 = data_2.drop(columns='productClassification', index=None)
+    col2.subheader(f':blue[{product_category[i]}]')
+    col2.bar_chart(data_2.set_index('vendorClassification'))
+    i+=1
+
+    data_3 = count_combined_product.get_group(product_category[i])
+    data_3 = data_3.drop(columns='productClassification', index=None)
+    col3.subheader(f':blue[{product_category[i]}]')
+    col3.bar_chart(data_3.set_index('vendorClassification'))
+    i+=1
+
+st.divider()
+
+
+col1, col2 = st.columns([3,3])
+
+while i < 17:
+    data_1 = count_combined_product.get_group(product_category[i])
+    data_1 = data_1.drop(columns='productClassification', index=None)
+    col1.subheader(f':blue[{product_category[i]}]')
+    col1.bar_chart(data_1.set_index('vendorClassification'))
+    i+=1
+
+    data_2 = count_combined_product.get_group(product_category[i])
+    data_2 = data_2.drop(columns='productClassification', index=None)
+    col2.subheader(f':blue[{product_category[i]}]')
+    col2.bar_chart(data_2.set_index('vendorClassification'))
+    i+=1
+
+st.divider()
