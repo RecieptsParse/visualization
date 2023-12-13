@@ -158,7 +158,7 @@ df_NER = pd.DataFrame(averages)
 
 st.divider()
 
-st.markdown("<h3 style='text-align: center;'>Named Entity Recognition (NER) performance</h3>", unsafe_allow_html=True)
+st.markdown("<h3 style='text-align: center;'> Average Named Entity Recognition (NER) Performance</h3>", unsafe_allow_html=True)
 
 st.dataframe(df_NER, use_container_width=True)
 
