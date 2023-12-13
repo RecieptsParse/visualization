@@ -81,10 +81,22 @@ with col2:
 
 # creates sidebar explaining project
 with st.sidebar:
-        st.title("About Us")
-        st.write("""Welcome to the final project visulization of ICS 438. Our group is made up of 4 members: Jeremiah Dy, Kylie Higashionna, Grayson Levy, Amanda Nitta.
-                 We created a parser to convert receipt data into structured JSON documents adhering to a specified schema utilizing ChatGPT4. We classified each receipt's 
-                 vendor and products into predefined categories using a classification method from the FAISS library which employed K-Nearest Neighbors.
+        st.title("About")
+        st.write("""
+                 This Dash Board displays how often people purchase particular items through displaying the categorization of 
+                 receipt information based on vendor and product.
+
+                 We created a parser to convert receipt data into structured JSON documents keeping all the information consistent/ correct with 
+                 how humans view receipts utilizing ChatGPT4. We classified each receipt's vendor and products into predefined categories using a 
+                 classification method with K-Nearest Neighbors.
+
+                 Team
+                 - Jeremiah Dy
+                 - Kylie Higashionna
+                 - Grayson Levy
+                 - Amanda Nitta
+
+                 Acknowledgement: Fall 2023 Big Data Analytics Course with Dr. Mahdi Belcaid
         """)
         st.link_button("Optical Character Recognition - txt (OCR) to JSON Repository", "https://github.com/RecieptsParse/OCR_TO_JSON")
         st.link_button("Visualization Repository", "https://github.com/RecieptsParse/visualization")
