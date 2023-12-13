@@ -83,7 +83,7 @@ with col2:
 with st.sidebar:
         st.title("About")
         st.write("""
-                 The Dashboard displays how often people purchase particular items through displaying the categorization of 
+                 This Dashboard displays how often people purchase particular items through displaying the categorization of 
                  receipt information based on vendor and product.
 
                  We created a parser to convert receipt data into structured JSON documents keeping all the information consistent/ correct with 
