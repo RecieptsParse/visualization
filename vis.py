@@ -95,7 +95,7 @@ with st.sidebar:
 
                  Acknowledgement: Fall 2023 Big Data Analytics Course with Dr. Mahdi Belcaid
         """)
-        st.link_button("Optical Character Recognition - txt (OCR) to JSON Repository", "https://github.com/RecieptsParse/OCR_TO_JSON")
+        st.link_button("Optical Character Recognition - text file (OCR) to JSON Repository", "https://github.com/RecieptsParse/OCR_TO_JSON")
         st.link_button("Visualization Repository", "https://github.com/RecieptsParse/visualization")
 
 # loads in results of NER Evaluate
